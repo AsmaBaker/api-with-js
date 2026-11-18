@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "axios": "^1.21.1",
+    "tailwindcss": "^4.3.5"
+  },
+  "name": "get-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "vite": "^8.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
